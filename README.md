@@ -2,6 +2,8 @@
 
 Welcome to **Gp.ai**, a powerful SaaS application built for creators, marketers, and developers who want to boost productivity using cutting-edge AI tools—all in one place. 🌟
 
+🟢 **Live Demo**: [https://gp-ai.vercel.app](https://gp-ai-plum.vercel.app/)
+
 ---
 
 ## 🚀 Features
