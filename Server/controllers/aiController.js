@@ -107,7 +107,7 @@ export const generateImage = async(req,res)=>{
        
 
         if(plan!== 'premium' ){
-            return res.json({ success: false , message: "this feature is only for premium members"})
+            return res.json({ success: false , message: "This feature is only for premium members"})
         }
     
         const formData = new FormData()
@@ -146,7 +146,7 @@ export const reomveImageBackground = async (req, res) => {
     if (plan !== "premium") {
       return res.json({
         success: false,
-        message: "this feature is only for premium members",
+        message: "This feature is only for premium members",
       });
     }
 
@@ -193,7 +193,7 @@ export const reomveImageObject = async(req,res)=>{
        
 
         if(plan!== 'premium' ){
-            return res.json({ success: false , message: "this feature is only for premium members"})
+            return res.json({ success: false , message: "This feature is only for premium members"})
         }
     
         
@@ -230,11 +230,11 @@ export const resumeReview = async(req,res)=>{
        
 
         if(plan!== 'premium' ){
-            return res.json({ success: false , message: "this feature is only for premium members"})
+            return res.json({ success: false , message: "This feature is only for premium members"})
         }
     
         if(resume.size>5*1024*1024){
-            return res.json({success: false , message: "resume file is more than 5MB . "})
+            return res.json({success: false , message: "Resume file is more than 5MB . "})
         }
 
         const dataBuffer = fs.readFileSync(resume.path)

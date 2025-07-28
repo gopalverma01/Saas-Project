@@ -32,7 +32,7 @@ const Generateimage = () => {
         if(data.success){
           setContent(data.content)
         }else{
-          toast.error(error.message)
+          toast.error(data.message)
         }
       } catch (error) {
 
